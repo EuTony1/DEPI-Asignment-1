@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>Mr Samir the lawyer</title>
+    <meta name="description" content="Contact Mr Samir">
+    <link rel="canonical" href="#">
+    
+    <meta property="og:title" content="Mr Samir">
+    <meta property="og:description" content="Schedule your free consultation today.">
+    <meta property="og:image" content="#">
+    <meta property="og:type" content="website">
+</head>
+<body>
+
+    <a href="#main-content" style="position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;">Skip to main content</a>
+
+    <header>
+        <div>
+            <h1>Mr.Samir</h1>
+        </div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="contact.html" aria-current="page">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav >
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><span aria-current="page">Contact Us</span></li>
+        </ol>
+    </nav>
+
+    <main id="main-content">
+        <h2>Request a Case Evaluation</h2>
+        <p>Please fill out the form below. All communications are confidential.</p>
+        
+        <section>
+            <form action="/submit-case" method="POST">
+                <label for="full-name">Full Name (Required):</label>
+                <input type="text" id="full-name" name="full-name" required>
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+20 ">
+                <br><br>
+
+                <label for="practice-area">Case Type:</label>
+                <select id="practice-area" name="practice-area">
+                    <option value="criminal">Criminal Defense</option>
+                    <option value="family">Family Law</option>
+                    <option value="corporate">Corporate Litigation</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+
+                <label for="case-details">Brief Description of Case:</label>
+                <textarea id="case-details" name="case-details" rows="6"></textarea>
+                <br><br>
+
+                <button type="submit">Submit Request</button>
+            </form>
+        </section>
+
+        <aside>
+            <h3>Our Office</h3>
+            <address>
+                <strong>Mr Samir</strong><br>
+                
+               
+                <br>
+                Phone: <a href="tel:+20100000000">+201005050505</a><br>
+                Email: <a href="mailto:MrSamir@gmail.com">MrSamir@gmail.com</a>
+            </address>
+
+  
+            
+        </aside>
+    </main>
+
+    <footer>
+        <footer>
+        <p> <ul>
+            <li><a href="#"><img src="\Instgram.png" width="20" height="20"></a></li>
+            <li><a href=""><img src="\facebook.png" width="20" height="20"></a></li>
+            <li><a href="#"><img src="\Linkedin.png"width="20" height="20"> </a></li>   
+        </ul>
+        </p>
+        <nav aria-label="Footer Navigation">
+            
+        </nav>
+    </footer>
+    </footer>
+
+
+</body>
+</html>
